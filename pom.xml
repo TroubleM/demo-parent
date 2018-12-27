@@ -10,9 +10,11 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>demo-dubbo-customer</module>
-    <module>demo-dubbo-server</module>
     <module>demo-mybatis-generator-maven-plugin</module>
     <module>demo-mybatis-generator-code-export</module>
+    <module>demo-mybatis-pagehelper</module>
+    <module>demo-dubbo-producer</module>
+    <module>demo-dubbo-api</module>
   </modules>
 
   <name>demo-parent</name>
@@ -33,11 +35,13 @@
   </properties>
 
     <dependencies>
+
       <dependency>
         <groupId>org.mybatis.spring.boot</groupId>
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>1.3.0</version>
       </dependency>
+
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>

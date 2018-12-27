@@ -33,7 +33,7 @@
                     <artifactId>mybatis-generator-maven-plugin</artifactId>
                     <version>1.3.5</version>
                     <configuration>
-                        <configurationFile>/Users/trouble-man/IdeaProjects/demo-parent/demo-mybatis-generator-maven-plugin/src/main/resources/mapper-generator/generatorConfig.xml</configurationFile>
+                        <configurationFile>/Users/trouble-man/IdeaProjects/demo-parent1/src/main/resources/mapper-generator/generatorConfig.xml</configurationFile>
                         <overwrite>true</overwrite>
                         <verbose>true</verbose>
                     </configuration>

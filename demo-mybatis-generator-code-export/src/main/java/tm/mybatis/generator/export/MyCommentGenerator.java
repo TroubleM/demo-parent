@@ -14,8 +14,6 @@ import org.mybatis.generator.config.MergeConstants;
 import org.mybatis.generator.config.PropertyRegistry;
 import org.mybatis.generator.internal.util.StringUtility;
 
-import static org.mybatis.generator.internal.util.StringUtility.isTrue;
-
 /**
  * @auther: zhangyi
  * @date: 2018/10/12
