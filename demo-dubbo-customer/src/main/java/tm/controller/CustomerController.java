@@ -27,8 +27,8 @@ public class CustomerController {
     @Autowired
     private MicroService microService;
 
-    @Autowired
-    private DuibaAdProducer duibaAdProducer;
+/*    @Autowired
+    private DuibaAdProducer duibaAdProducer;*/
 
     /**
      * @Author zhangyi
@@ -41,7 +41,7 @@ public class CustomerController {
     public MicroServiceResponse customerRequest(MicroServiceRequest microServiceRequest){
         try {
             logger.info("classType:{}",microService);
-            logger.info("findDuibaAdList:{}",duibaAdProducer.findDuibaAdList());
+/*            logger.info("findDuibaAdList:{}",duibaAdProducer.findDuibaAdList());*/
             return microService.execute(microServiceRequest);
         }catch (Exception e){
             logger.error("异常",e);

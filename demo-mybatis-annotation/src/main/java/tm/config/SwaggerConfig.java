@@ -61,8 +61,8 @@ public class SwaggerConfig {
      * @Description:信息说明
      */
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("生产者控制层")
-                .description("微服务")
+        return new ApiInfoBuilder().title("对啊帮Restful接口文档")
+                .description("金融帮，教师帮，会计帮")
                 .termsOfServiceUrl("http://www.duia.com")
                 .contact("duia")
                 .version("1.0")

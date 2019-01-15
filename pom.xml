@@ -15,6 +15,7 @@
     <module>demo-mybatis-pagehelper</module>
     <module>demo-dubbo-producer</module>
     <module>demo-dubbo-api</module>
+      <module>demo-mybatis-annotation</module>
   </modules>
 
   <name>demo-parent</name>
@@ -50,6 +51,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>com.tm.excel</groupId>
+        <artifactId>excel-handle</artifactId>
+        <version>1.0.0</version>
       </dependency>
     </dependencies>
 </project>
