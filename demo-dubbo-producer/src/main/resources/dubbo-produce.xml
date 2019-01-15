@@ -17,6 +17,6 @@
 
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="tm.service.MicroService" ref="microService"
-                   protocol="dubbo" timeout="2000" version="1.0"/>
+                   protocol="dubbo" timeout="2000" version="1.0.0"/>
 
 </beans>

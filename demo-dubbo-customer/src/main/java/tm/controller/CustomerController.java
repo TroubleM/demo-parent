@@ -2,14 +2,14 @@ package tm.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
-import tm.service.DuibaAdProducer;
 import tm.service.MicroService;
 
 
@@ -24,8 +24,11 @@ public class CustomerController {
 
     private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
-    @Autowired
+    @Reference(version = "1.0.0")
     private MicroService microService;
+
+/*    @Autowired
+    private MicroService microService;*/
 
 /*    @Autowired
     private DuibaAdProducer duibaAdProducer;*/

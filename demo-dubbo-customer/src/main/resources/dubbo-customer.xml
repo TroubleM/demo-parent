@@ -11,7 +11,7 @@
     <dubbo:registry address="zookeeper://localhost:2181" />
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
 
-    <dubbo:reference id="microService" interface="tm.service.MicroService" version="1.0" check="true" />
+    <dubbo:reference id="microService" interface="tm.service.MicroService" version="1.0.0" check="true" />
 
     <!--<dubbo:reference id="duibaAdProducer" interface="tm.service.DuibaAdProducer" version="1.0" check="true" />-->
 </beans>

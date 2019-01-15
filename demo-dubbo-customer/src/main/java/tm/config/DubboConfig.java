@@ -1,34 +1,37 @@
 package tm.config;
 
+import com.alibaba.dubbo.config.spring.AnnotationBean;
 import org.springframework.context.annotation.Bean;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
+import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 public class DubboConfig {
 
 
     @Bean
-    public RegistryConfig registry() {
-        RegistryConfig registryConfig = new RegistryConfig();
-        registryConfig.setAddress("localhost:2181");
-        registryConfig.setProtocol("zookeeper");
-        return registryConfig;
-    }
-
-    @Bean
-    public ApplicationConfig application() {
+    public ApplicationConfig applicationConfig() {
         ApplicationConfig applicationConfig = new ApplicationConfig();
         applicationConfig.setName("demo-dubbox-customer");
         return applicationConfig;
     }
 
     @Bean
-    public ProtocolConfig protocol() {
-        ProtocolConfig protocolConfig = new ProtocolConfig();
-        protocolConfig.setPort(20882);
-        return protocolConfig;
+    public RegistryConfig registryConfig() {
+        RegistryConfig registryConfig = new RegistryConfig();
+        registryConfig.setAddress("zookeeper://localhost:2181");
+        return registryConfig;
     }
+
+
+    @Bean
+    public AnnotationBean annotationBean() {
+        AnnotationBean annotationBean = new AnnotationBean();
+        annotationBean.setPackage("tm");
+        return annotationBean;
+    }
+
 }

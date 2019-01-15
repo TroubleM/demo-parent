@@ -22,16 +22,16 @@ public class ProducerController {
 
     private static final Logger logger = LoggerFactory.getLogger(ProducerController.class);
 
-    @Autowired
+    /*@Autowired
     private MicroService microService;
 
-    /**
+    *//**
      * @Author zhangyi
      * @Description: 非分布式微服务远程调用
      * @Date  2018/12/27
      * @Param [microServiceRequest]
      * @return tm.response.MicroServiceResponse
-     **/
+     **//*
     @GetMapping(value = "producerRequest")
     public MicroServiceResponse producerRequest(MicroServiceRequest microServiceRequest){
         try {
@@ -41,6 +41,6 @@ public class ProducerController {
             logger.error("执行异常",e);
         }
         return null;
-    }
+    }*/
 
 }

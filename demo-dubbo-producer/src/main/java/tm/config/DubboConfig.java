@@ -6,36 +6,37 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.AnnotationBean;
-
-//@Configuration
+import org.springframework.context.annotation.Configuration;
+@Configuration
 public class DubboConfig {
 
     @Bean
-    public AnnotationBean annotation() {
-        AnnotationBean bean = new AnnotationBean();
-        bean.setPackage("tm.service");
-        return bean;
-    }
-
-    @Bean
-    public RegistryConfig registry() {
-        RegistryConfig registryConfig = new RegistryConfig();
-        registryConfig.setAddress("localhost:2181");
-        registryConfig.setProtocol("zookeeper");
-        return registryConfig;
-    }
-
-    @Bean
-    public ApplicationConfig application() {
+    public ApplicationConfig applicationConfig() {
         ApplicationConfig applicationConfig = new ApplicationConfig();
         applicationConfig.setName("demo-dubbox-producer");
         return applicationConfig;
     }
 
     @Bean
-    public ProtocolConfig protocol() {
-        ProtocolConfig protocolConfig = new ProtocolConfig();
+    public RegistryConfig registryConfig() {
+        RegistryConfig registryConfig = new RegistryConfig();
+        registryConfig.setAddress("zookeeper://localhost:2181");
+        return registryConfig;
+    }
+
+    @Bean
+    public ProtocolConfig protocolConfig(){
+        ProtocolConfig protocolConfig=new ProtocolConfig();
         protocolConfig.setPort(20881);
         return protocolConfig;
     }
+
+
+    @Bean
+    public AnnotationBean annotationBean() {
+        AnnotationBean annotationBean = new AnnotationBean();
+        annotationBean.setPackage("tm.service");
+        return annotationBean;
+    }
+
 }
