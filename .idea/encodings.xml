@@ -2,12 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-customer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-dubbo-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-mybatis-generator-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-producer-assistant-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-j2ee-export" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-mybatis-annotation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-mybatis-generator-code-export" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-mybatis-generator-maven-plugin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-mybatisgeneratormavenplugin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mybatis-generator-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-mybatis-pagehelper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage" charset="UTF-8" />
   </component>
 </project>

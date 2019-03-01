@@ -16,6 +16,11 @@
     <module>demo-dubbo-producer</module>
     <module>demo-dubbo-api</module>
       <module>demo-mybatis-annotation</module>
+      <module>demo-j2ee-export</module>
+      <module>demo-dubbo-producer-assistant-one</module>
+      <module>demo-spring-fescar-dubbo-producer-storage</module>
+      <module>demo-spring-fescar-dubbo-producer-order</module>
+    <module>demo-spring-fescar-dubbo-customer</module>
   </modules>
 
   <name>demo-parent</name>

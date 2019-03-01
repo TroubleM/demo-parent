@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BeansEndpointTabSettings">
+    <option name="diagramMode" value="true" />
+    <option name="showContexts" value="false" />
+    <option name="showFiles" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21380f9a-713a-4838-8885-f2447463456c" name="Default Changelist" comment="" />
+    <list default="true" id="21380f9a-713a-4838-8885-f2447463456c" name="Default Changelist" comment="dubbox集成">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-server/demo-dubbo-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis-annotation/demo-mybatis-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis-generator-code-export/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/FescarCustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/controller/FescarCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/resources/dubbo-customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/demo-spring-fescar-dubbo-producer-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/OrderProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/dubbo-order-producer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/spring-db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/demo-spring-fescar-dubbo-producer-storage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/StorageProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/dao/StorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/BusinessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/dubbo-storage-producer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/spring-db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/classes/tm/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/dubbo-demo-customer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-customer/target/dubbo-demo-customer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-customer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-producer/target/dubbo-demo-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/mapper-generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/mapper-generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/tm/mybatis/generator/MybatisApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/tm/mybatis/generator/MybatisApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/tm/mybatis/generator/export/MyCommentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/classes/tm/mybatis/generator/export/MyCommentGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/demo-mybatis-generator-code-export-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/target/classes/mapper-generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/target/classes/mapper-generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo这-demo-customer/target/" />
@@ -15,6 +75,19 @@
     <ignored path="$PROJECT_DIR$/demo-mybatis-generator-code-export/target/" />
     <ignored path="$PROJECT_DIR$/demo-dubbo-server/target/" />
     <ignored path="$PROJECT_DIR$/demo-dubbo-customer/target/" />
+    <ignored path="$PROJECT_DIR$/demo-mybatis-pagehelper/target/" />
+    <ignored path="$PROJECT_DIR$/demo-mybatis-pagehelper/demo-srping-boot/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-boot/target/" />
+    <ignored path="$PROJECT_DIR$/demo-dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/demo-dubbo-api2/target/" />
+    <ignored path="$PROJECT_DIR$/demo-dubbo-producer/target/" />
+    <ignored path="$PROJECT_DIR$/demo-mybatis-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/demo-j2ee-export/target/" />
+    <ignored path="$PROJECT_DIR$/demo-dubbo-producer-assistant-one/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,47 +141,112 @@
     <session id="-1651402226">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="21" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="24" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="22" />
-          <entry key="xml" value="26" />
+          <entry key="fxml" value="2" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="515" />
+          <entry key="mvn-package" value="1" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="56" />
+          <entry key="sh" value="4" />
+          <entry key="xml" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="24" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="22" />
-          <entry key="XML" value="26" />
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="515" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Properties" value="56" />
+          <entry key="XML" value="299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="154" />
-          <entry key="xml" value="334" />
+          <entry key="class" value="6" />
+          <entry key="dummy" value="39" />
+          <entry key="java" value="13024" />
+          <entry key="properties" value="428" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="110" />
+          <entry key="xml" value="1910" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="154" />
-          <entry key="XML" value="334" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="13024" />
+          <entry key="PLAIN_TEXT" value="150" />
+          <entry key="Properties" value="428" />
+          <entry key="SQL" value="16" />
+          <entry key="XML" value="1894" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator/generatorConfig.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/dubbo-storage-producer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="29" column="160" selection-start-line="29" selection-start-column="160" selection-end-line="29" selection-end-column="160" />
+            <state relative-caret-position="360">
+              <caret line="18" column="83" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/spring-db.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3287">
+              <caret line="183" column="33" selection-start-line="183" selection-start-column="33" selection-end-line="183" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -118,8 +256,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Gradle Kotlin DSL Settings" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -129,39 +269,76 @@
       <find>addClassComment</find>
       <find>addEnumComment</find>
       <find>addJavaFileComment</find>
+      <find>soa-users</find>
+      <find>findDuibaAdList</find>
+      <find>commonClassCache</find>
+      <find>registerCommonClasses</find>
+      <find>requestApplicationConfig</find>
+      <find>modCount</find>
+      <find>hashCode</find>
+      <find>equals</find>
+      <find>eq</find>
+      <find>clone</find>
+      <find>my_test_tx_group</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-demo-server/src/main/java/tm/bean/dao/Application.java" />
-        <option value="$PROJECT_DIR$/dubbo-demo-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dubbo-demo-server/src/main/java/tm/Application.java" />
-        <option value="$PROJECT_DIR$/dubbo-demo-server/src/main/resources/mybatis-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/dubbo-demo-server/src/main/resources/generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/dubbo-demo-server/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-demo-customer/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-generator-maven-plugin/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/pom.xml" />
-        <option value="$USER_HOME$/config/mybatis-generator-core-1.3.7-sources/org/mybatis/generator/internal/DefaultCommentGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/src/main/resources/mapper-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/demo-myabtis-generator-code/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/demo-myabtis-generator-code/src/main/resources/mapper-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/demo-myabtis-generator-code/src/main/java/tm/mybatis/generator/MybatisApplication.java" />
-        <option value="$PROJECT_DIR$/demo-myabtis-generator-code/src/main/java/tm/mybatis/generator/export/MyCommentGenerator.java" />
-        <option value="$USER_HOME$/config/mybatis-generator-core-1.3.7-sources/org/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-myabtis-generator-code/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/mybatis/generator/MybatisApplication.java" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/mybatis/generator/export/MyBaseRecordGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code/src/main/resources/mapper-generator/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/mybatis/generator/export/MyCommentGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code-export/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/java/tm/mybatis/generator/export/MyCommentGenerator.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer/src/main/java/tm/ProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer/src/main/java/tm/config/DubboConfig.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer-assistant-one/src/main/java/tm/config/DubboConfig.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer-assistant-one/src/main/java/tm/ProducerAssistantOneApplication.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-customer/src/main/java/tm/config/DubboConfig.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-customer/src/main/java/tm/CustomerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer-assistant-one/src/main/java/tm/service/MicroAssistantOneServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer/src/main/java/tm/service/MicroServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer-assistant-one/src/main/resources/dubbo-produce-assistant-one.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-customer/src/main/java/tm/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar.fxml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/DuibaAdService.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/bean/Order.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/BusinessService.java" />
+        <option value="$PROJECT_DIR$/demo-dubbo-api/mvn-package.sh" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/service/BusinessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/resources/dubbo-produce.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/service/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/resources/dubbo-storage-producer.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/ProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/java/tm/StorageProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/resources/spring-db.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/StorageProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/StorageProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/OrderProducerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/CustomerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/controller/FescarCustomerController.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/dubbo-order-producer.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/resources/dubbo-customer.xml" />
         <option value="$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/mapper/DuibaAdMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/dao/StorageMapper.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/mapper/StorageMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/spring-db.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/spring-db.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/pom.xml" />
       </list>
     </option>
   </component>
@@ -174,6 +351,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
         <option name="mavenHome" value="$USER_HOME$/config/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="$USER_HOME$/config/settings.xml" />
       </MavenGeneralSettings>
@@ -186,15 +364,47 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-spring-fescar-dubbo-producer-storage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-spring-fescar-dubbo-producer-storage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="27" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="813" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Mybatis</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MybatisMapperXmlInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -203,7 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,35 +470,231 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-mybatis-generator-code-export" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-customer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-spring-fescar-dubbo-producer-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/trouble-man/IdeaProjects/demo-parent/demo-mybatis-pagehelper/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539330071564" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/dubbo-demo-server/src/main/java/tm" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551429985852" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demo-dubbo-producer/src/main/java/tm/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2858473" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm" />
+      <recent name="$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tm" />
+      <recent name="tm.service" />
+      <recent name="tm.config" />
+      <recent name="tm.dao" />
+      <recent name="tm.bean" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-dubbo-customer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/demo-spring-boot/src/main/recourses" />
+      <recent name="$PROJECT_DIR$/demo-mybatis-pagehelper/src/main/recources/mapper" />
       <recent name="$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator" />
       <recent name="$PROJECT_DIR$/demo-myabtis-generator-code/src/main/resources/mapper-generator" />
-      <recent name="$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/src/main/resources/mapper-generator" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/dubbo-demo-server/src/main/resources/generator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,8 +723,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StorageProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tm.StorageProducerApplication" />
+      <module name="demo-spring-fescar-dubbo-producer-storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="demo-parent" />
+      <module name="demo-dubbo-api" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -332,7 +750,7 @@
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="demo-parent" />
+      <module name="demo-dubbo-api" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -417,15 +835,82 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-dubbo-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tm.CustomerApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FescarCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-spring-fescar-dubbo-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tm.FescarCustomerApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-spring-fescar-dubbo-producer-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tm.OrderProducerApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.mybatisGenerator-run" />
+      <item itemvalue="Application.StorageProducerApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.OrderProducerApplication" />
+      <item itemvalue="Spring Boot.FescarCustomerApplication" />
       <item itemvalue="Application.MybatisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StorageProducerApplication" />
+        <item itemvalue="Spring Boot.OrderProducerApplication" />
         <item itemvalue="Application.MybatisApplication" />
+        <item itemvalue="Spring Boot.FescarCustomerApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootEndpointsTabSettings">
+    <option name="selectedTab" value="beans" />
+  </component>
+  <component name="SpringBootHealthEndpointTabSettings">
+    <option name="checkHealth" value="false" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="autoCreateRunConfiguration" value="false" />
+    <option name="reformatAfterCreation" value="false" />
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="showProfilesPanel" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -440,23 +925,137 @@
       <workItem from="1539222508152" duration="13538000" />
       <workItem from="1539250954495" duration="597000" />
       <workItem from="1539308884143" duration="999000" />
-      <workItem from="1539310105869" duration="9277000" />
+      <workItem from="1539310105869" duration="9791000" />
+      <workItem from="1540352173013" duration="1018000" />
+      <workItem from="1540360603276" duration="12000" />
+      <workItem from="1540367855471" duration="2512000" />
+      <workItem from="1540371175781" duration="905000" />
+      <workItem from="1540516624673" duration="7823000" />
+      <workItem from="1540524651074" duration="2252000" />
+      <workItem from="1540974920491" duration="3224000" />
+      <workItem from="1540978167673" duration="4294000" />
+      <workItem from="1540982495338" duration="495000" />
+      <workItem from="1540983065198" duration="989000" />
+      <workItem from="1541035967403" duration="4662000" />
+      <workItem from="1542867567706" duration="766000" />
+      <workItem from="1543889107100" duration="4204000" />
+      <workItem from="1543994567294" duration="2356000" />
+      <workItem from="1544059797335" duration="572000" />
+      <workItem from="1545875035728" duration="10225000" />
+      <workItem from="1545894423146" duration="5682000" />
+      <workItem from="1545900954414" duration="2716000" />
+      <workItem from="1545904152098" duration="6756000" />
+      <workItem from="1545964158481" duration="765000" />
+      <workItem from="1546499537323" duration="841000" />
+      <workItem from="1546565735462" duration="2345000" />
+      <workItem from="1546659281084" duration="1450000" />
+      <workItem from="1546913051734" duration="5813000" />
+      <workItem from="1547000231167" duration="5750000" />
+      <workItem from="1547531977615" duration="13526000" />
+      <workItem from="1547602679144" duration="2710000" />
+      <workItem from="1547621597642" duration="5433000" />
+      <workItem from="1547688982587" duration="5007000" />
+      <workItem from="1547775089711" duration="3133000" />
+      <workItem from="1548034598440" duration="2251000" />
+      <workItem from="1548121013706" duration="573000" />
+      <workItem from="1548234480830" duration="598000" />
+      <workItem from="1548293680274" duration="598000" />
+      <workItem from="1548342185942" duration="257000" />
+      <workItem from="1550129377049" duration="8454000" />
+      <workItem from="1550158352143" duration="354000" />
+      <workItem from="1550213656325" duration="4097000" />
+      <workItem from="1550712782427" duration="5490000" />
+      <workItem from="1550804019957" duration="9183000" />
+      <workItem from="1551084620138" duration="3058000" />
+      <workItem from="1551149485796" duration="5591000" />
+      <workItem from="1551231330412" duration="9803000" />
+      <workItem from="1551317632136" duration="2871000" />
+      <workItem from="1551405541324" duration="15697000" />
     </task>
+    <task id="LOCAL-00001" summary="dubbox集成">
+      <created>1545911757536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545911757536</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dubbox调试，mybatisSQL对象生成sqldemo">
+      <created>1547536148298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547536148299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="补充dubbox的注解配置">
+      <created>1547542989956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547542989956</updated>
+    </task>
+    <task id="LOCAL-00004" summary="j2ee扩展spi学习工程创建">
+      <created>1550130744304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550130744304</updated>
+    </task>
+    <task id="LOCAL-00005" summary="j2ee扩展spi学习工程api创建">
+      <created>1551088860967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551088860967</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dubbox多producer搭建，并完善注解配置和xml配置共行">
+      <created>1551406729927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551406729927</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.10.11 at 09h 56m 59s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_test12 - 2019.02.22 at 14h 40m 23s.xml">
+      <configuration name="ApplicationTest.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test12 - 2019.02.22 at 14h 40m 50s.xml">
+      <configuration name="ApplicationTest.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test9 - 2019.02.22 at 15h 41m 40s.xml">
+      <configuration name="ApplicationTest.test9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test9 - 2019.02.22 at 15h 41m 49s.xml">
+      <configuration name="ApplicationTest.test9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test13 - 2019.02.26 at 14h 12m 07s.xml">
+      <configuration name="ApplicationTest.test13" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test14 - 2019.02.26 at 14h 13m 48s.xml">
+      <configuration name="ApplicationTest.test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test14 - 2019.02.26 at 14h 16m 11s.xml">
+      <configuration name="ApplicationTest.test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test14 - 2019.02.26 at 14h 16m 26s.xml">
+      <configuration name="ApplicationTest.test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test14 - 2019.02.26 at 14h 18m 14s.xml">
+      <configuration name="ApplicationTest.test14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_test14 - 2019.02.26 at 14h 18m 42s.xml">
+      <configuration name="ApplicationTest.test14" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24411000" />
+    <option name="totallyTimeSpent" value="202036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="27" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32689556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,325 +1064,419 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.08415147" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.542777" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44740534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16944444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.6144244" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" visible="true" weight="0.69902915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.44803372" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.46324548" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.7236111" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32871014" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.35693848" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Redis Servers" order="9" weight="0.3297568" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.08415147" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.542777" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27208975" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.44803372" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Redis Servers" order="9" weight="0.3297568" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dubbox集成" />
+    <MESSAGE value="dubbox调试，mybatisSQL对象生成sqldemo" />
+    <MESSAGE value="补充dubbox的注解配置" />
+    <MESSAGE value="j2ee扩展spi学习工程创建" />
+    <MESSAGE value="j2ee扩展spi学习工程api创建" />
+    <MESSAGE value="dubbox多producer搭建，并完善注解配置和xml配置共行" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbox多producer搭建，并完善注解配置和xml配置共行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/java/tm/mybatis/generator/MybatisApplication.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/demo-dubbo-customer/src/main/java/tm/controller/CustomerController.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-demo-customer/src/test/java/tm/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo-dubbo-server/src/main/java/tm/Application.java">
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/bean/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/mvn-package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="97" selection-start-column="97" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="139" column="19" selection-start-line="32" selection-start-column="4" selection-end-line="139" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/demo-spring-fescar-dubbo-producer-storage.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-producer/src/main/resources/dubbo-produce.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-producer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar!/com/mysql/jdbc/Driver.class">
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-api/src/main/java/tm/fescar/service/BusinessService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/FastCharsetProvider.class">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-one/src/main/resources/global-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE-sources.jar!/org/springframework/context/annotation/ImportResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="199">
+          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-producer/src/main/java/tm/ProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="529" selection-start-line="529" selection-end-line="529" />
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/charset/StandardCharsets.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="96">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/zip/ZipFile.java">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/OrderProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/jar/JarFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="415" selection-start-line="415" selection-end-line="415" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="329" column="67" selection-start-line="329" selection-start-column="67" selection-end-line="329" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-dubbo-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DuibaAdMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tm/bean/DuibaAd.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-maven-plugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatisgeneratormavenplugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-dubbo-customer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="318">
+          <caret line="136" column="19" selection-start-line="24" selection-start-column="4" selection-end-line="136" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-dubbo-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo-dubbo-customer/src/main/resources/dubbo-customer.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/config/DubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="211">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/config/mybatis-generator-core-1.3.7-sources/org/mybatis/generator/internal/DefaultCommentGenerator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/registry/integration/RegistryDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="151" column="10" lean-forward="true" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+        <state relative-caret-position="56">
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/dao/DuibaAdMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/cluster/directory/AbstractDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="56">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/bean/DuibaAd.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/cluster/support/AbstractClusterInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="49">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7.jar!/org/mybatis/generator/internal/util/JavaBeansUtil.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/cluster/support/wrapper/MockClusterInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="-232">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7.jar!/org/mybatis/generator/api/CommentGenerator.class">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="942">
+          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/config/mybatis-generator-core-1.3.7-sources/org/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.java">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/FescarCustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/src/main/resources/mapper-generator/generatorConfig.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="77">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7.jar!/org/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="90">
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7-sources.jar!/org/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.java">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/StorageProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="217" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="217" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code/src/main/java/tm/mybatis/generator/export/MyBaseRecordGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-maven-plugin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/java/tm/controller/FescarCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="122" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7-sources.jar!/org/mybatis/generator/config/xml/mybatis-generator-config_1_0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="239" column="4" lean-forward="true" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/java/tm/mybatis/generator/export/MyCommentGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="90" column="36" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="36" />
+        <state relative-caret-position="474">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="220">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/java/tm/mybatis/generator/MybatisApplication.java">
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-customer/src/main/resources/dubbo-customer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#751#759#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/resources/mapper-generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="29" column="160" selection-start-line="29" selection-start-column="160" selection-end-line="29" selection-end-column="160" />
+        <state relative-caret-position="-64">
+          <caret line="15" column="112" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/dao/StorageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/mapper/StorageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-mybatis-generator-code-export/src/main/java/tm/mybatis/generator/MybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/BusinessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tm/demo-api/0.0.1/demo-api-0.0.1.jar!/tm/fescar/bean/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tm/demo-api/0.0.1/demo-api-0.0.1.jar!/tm/fescar/service/OrderService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/java/tm/service/StorageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/spring-db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="32" column="92" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/resources/dubbo-order-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/src/main/java/tm/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/dubbo-storage-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/src/main/resources/spring-db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3287">
+          <caret line="183" column="33" selection-start-line="183" selection-start-column="33" selection-end-line="183" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-spring-fescar-dubbo-producer-storage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -793,11 +1486,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>mybatis-generator-core-1.3.7</last-edited>
+          <last-edited>demo-dubbo-api:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -840,11 +1534,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbo-demo-customer</last-edited>
+          <last-edited>demo-dubbo-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2858473" />
                 <option value="0.6" />
               </list>
             </option>
@@ -869,7 +1563,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2858473" />
               </list>
             </option>
           </splitter-proportions>
