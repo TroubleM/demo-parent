@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-/*@ImportResource(locations={"classpath:dubbo-produce.xml"})*/
+/*@ImportResource(locations={"classpath:dubbo-produce-assistant-one.xml"})*/
 @MapperScan("tm.dao")
-public class ProducerApplication {
+public class ProducerAssistantOneApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProducerApplication.class, args);
+        SpringApplication.run(ProducerAssistantOneApplication.class, args);
         System.out.println("success");
     }
 

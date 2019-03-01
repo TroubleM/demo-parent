@@ -161,17 +161,4 @@
       ad_type = #{adType,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
-
-    <select id="findDuibaAdList" parameterType="tm.condition.DuibaAdCondition" resultType="tm.vo.DuibaAdVo">
-    select
-      da.id as id, ad_id as adId, da.create_time as createTime,
-      ad_img_url as adImgUrl, ad_link as adLink
-    from duiba_ad da
-      left join duiba_ad_group dap on da.id = dap.adId
-    <where>
-      <if test="terminal != null">
-        and da.terminal = #{terminal}
-      </if>
-    </where>
-  </select>
 </mapper>

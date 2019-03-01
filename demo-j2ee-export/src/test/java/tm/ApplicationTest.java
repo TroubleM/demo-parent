@@ -297,6 +297,39 @@ public class ApplicationTest {
         }
 
     }
-    
+
+    /**
+     * @Author zhangyi
+     * @Description: TreeMap api
+     * @Date  2019/2/26
+     * @Param []
+     * @return void
+     **/
+    @Test
+    public void test13(){
+        TreeMap<String ,Object> treeMap = Maps.newTreeMap();
+
+        System.out.println(treeMap.put("123",123));
+        System.out.println(treeMap.put("123",234));
+    }
+
+    /**
+     * @Author zhangyi
+     * @Description: TreeSet Api
+     * @Date  2019/2/26
+     * @Param []
+     * @return void
+     **/
+    @Test
+    public void test14(){
+        Set<Comparable> treeSet = Sets.newTreeSet();
+
+        System.out.println(treeSet.add("123"));
+        System.out.println(treeSet.add("123"));
+
+        System.out.println(treeSet.add(new Student("123",123)));
+        System.out.println(treeSet.add(new Student("123",321)));
+
+    }
 
 }

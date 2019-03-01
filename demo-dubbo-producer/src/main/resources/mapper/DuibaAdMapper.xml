@@ -29,11 +29,11 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="tm.entity.DuibaAd">
-    insert into duiba_ad (ad_id, terminal,
+    insert into duiba_ad (id, ad_id, terminal, 
       code_id, creator, create_time, 
       ad_img_url, ad_link, slogan, 
       status, ad_type)
-    values (#{adId,jdbcType=VARCHAR}, #{terminal,jdbcType=INTEGER},
+    values (#{id,jdbcType=INTEGER}, #{adId,jdbcType=VARCHAR}, #{terminal,jdbcType=INTEGER}, 
       #{codeId,jdbcType=VARCHAR}, #{creator,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
       #{adImgUrl,jdbcType=VARCHAR}, #{adLink,jdbcType=VARCHAR}, #{slogan,jdbcType=VARCHAR}, 
       #{status,jdbcType=INTEGER}, #{adType,jdbcType=INTEGER})
@@ -161,17 +161,4 @@
       ad_type = #{adType,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
-
-    <select id="findDuibaAdList" parameterType="tm.condition.DuibaAdCondition" resultType="tm.vo.DuibaAdVo">
-    select
-      da.id as id, ad_id as adId, da.create_time as createTime,
-      ad_img_url as adImgUrl, ad_link as adLink
-    from duiba_ad da
-      left join duiba_ad_group dap on da.id = dap.adId
-    <where>
-      <if test="terminal != null">
-        and da.terminal = #{terminal}
-      </if>
-    </where>
-  </select>
 </mapper>

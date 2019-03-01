@@ -5,7 +5,7 @@ package tm.bean;
  * @date: 2019/2/21
  * @Description: 学生类
  */
-public class Student implements Cloneable{
+public class Student implements Cloneable,Comparable{
 
     /**
      * @auther: zhangyi
@@ -21,6 +21,14 @@ public class Student implements Cloneable{
      */
     private Integer age;
 
+    Student(String test){
+        System.out.println("121212");
+        System.out.println(test);
+    }
+
+    public Student(){
+    }
+
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
@@ -30,9 +38,6 @@ public class Student implements Cloneable{
         System.out.println("protected");
     }
 
-    public Student(){
-
-    }
 
     public Student(String name, Integer age){
         this.testProtected();
@@ -86,5 +91,14 @@ public class Student implements Cloneable{
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if(o instanceof Student){
+            Student student = (Student) o;
+            return this.getName().equals(student.getName()) ? 0 : 1;
+        }
+        return 1;
     }
 }

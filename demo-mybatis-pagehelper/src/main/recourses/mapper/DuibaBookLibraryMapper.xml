@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tm.dao.DuibaBookLibraryMapper">
+  <resultMap id="BaseResultMap" type="tm.entity.DuibaBookLibrary">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="bg_pic_url" jdbcType="VARCHAR" property="bgPicUrl" />
+    <result column="publisher" jdbcType="VARCHAR" property="publisher" />
+    <result column="publish_date" jdbcType="VARCHAR" property="publishDate" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="isbn_code" jdbcType="VARCHAR" property="isbnCode" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, bg_pic_url, publisher, publish_date, author, isbn_code
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from duiba_book_library
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from duiba_book_library
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="tm.entity.DuibaBookLibrary">
+    insert into duiba_book_library (id, name, bg_pic_url, 
+      publisher, publish_date, author, 
+      isbn_code)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{bgPicUrl,jdbcType=VARCHAR}, 
+      #{publisher,jdbcType=VARCHAR}, #{publishDate,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR}, 
+      #{isbnCode,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="tm.entity.DuibaBookLibrary">
+    insert into duiba_book_library
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="bgPicUrl != null">
+        bg_pic_url,
+      </if>
+      <if test="publisher != null">
+        publisher,
+      </if>
+      <if test="publishDate != null">
+        publish_date,
+      </if>
+      <if test="author != null">
+        author,
+      </if>
+      <if test="isbnCode != null">
+        isbn_code,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="bgPicUrl != null">
+        #{bgPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publisher != null">
+        #{publisher,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        #{publishDate,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null">
+        #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="isbnCode != null">
+        #{isbnCode,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="tm.entity.DuibaBookLibrary">
+    update duiba_book_library
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="bgPicUrl != null">
+        bg_pic_url = #{bgPicUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="publisher != null">
+        publisher = #{publisher,jdbcType=VARCHAR},
+      </if>
+      <if test="publishDate != null">
+        publish_date = #{publishDate,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null">
+        author = #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="isbnCode != null">
+        isbn_code = #{isbnCode,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="tm.entity.DuibaBookLibrary">
+    update duiba_book_library
+    set name = #{name,jdbcType=VARCHAR},
+      bg_pic_url = #{bgPicUrl,jdbcType=VARCHAR},
+      publisher = #{publisher,jdbcType=VARCHAR},
+      publish_date = #{publishDate,jdbcType=VARCHAR},
+      author = #{author,jdbcType=VARCHAR},
+      isbn_code = #{isbnCode,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

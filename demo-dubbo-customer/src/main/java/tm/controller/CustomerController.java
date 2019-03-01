@@ -2,6 +2,7 @@ package tm.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +11,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
+import tm.service.MicroAssistantOneService;
 import tm.service.MicroService;
 
 
@@ -27,11 +29,14 @@ public class CustomerController {
     @Reference(version = "1.0.0")
     private MicroService microService;
 
-/*    @Autowired
-    private MicroService microService;*/
+    @Reference(version = "1.0.0")
+    private MicroAssistantOneService microAssistantOneService;
 
 /*    @Autowired
-    private DuibaAdProducer duibaAdProducer;*/
+    private MicroService microService;
+
+    @Autowired
+    private MicroAssistantOneService microAssistantOneService;*/
 
     /**
      * @Author zhangyi
@@ -45,6 +50,7 @@ public class CustomerController {
         try {
             logger.info("classType:{}",microService);
 /*            logger.info("findDuibaAdList:{}",duibaAdProducer.findDuibaAdList());*/
+            /*microAssistantOneService.execute(microServiceRequest);*/
             return microService.execute(microServiceRequest);
         }catch (Exception e){
             logger.error("异常",e);

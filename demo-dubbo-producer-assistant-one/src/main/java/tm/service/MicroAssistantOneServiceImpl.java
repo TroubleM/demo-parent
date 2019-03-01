@@ -1,28 +1,23 @@
 package tm.service;
 
-import java.util.Date;
-
 import com.alibaba.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import tm.dao.DuibaAdMapper;
 import tm.entity.DuibaAd;
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
 
-/**
- * @auther: zhangyi
- * @date: 2018/12/27
- * @Description: 微服务实际实现层
- */
-@Component("microService")
-@Service(timeout = 5000,version = "1.0.0",interfaceClass = MicroService.class)
-public class MicroServiceImpl implements MicroService {
+import java.util.Date;
 
-    private static final Logger logger = LoggerFactory.getLogger(MicroServiceImpl.class);
+@Component("microAssistantOneService")
+@Service(timeout = 5000,version = "1.0.0",interfaceClass = MicroAssistantOneService.class)
+public class MicroAssistantOneServiceImpl implements MicroAssistantOneService{
+
+
+    private static final Logger logger = LoggerFactory.getLogger(MicroAssistantOneServiceImpl.class);
 
     @Autowired
     private DuibaAdMapper duibaAdMapper;
@@ -36,22 +31,22 @@ public class MicroServiceImpl implements MicroService {
 
         //模拟数据库持久化操作
         DuibaAd duibaAd = new DuibaAd();
-        duibaAd.setAdImgUrl("1111");
-        duibaAd.setAdLink("2222");
-        duibaAd.setAdType(3333);
-        duibaAd.setCodeId("4444");
+        duibaAd.setAdImgUrl("11111");
+        duibaAd.setAdLink("22222");
+        duibaAd.setAdType(33333);
+        duibaAd.setCodeId("44444");
         duibaAd.setCreateTime(new Date());
-        duibaAd.setCreator(5555);
-        duibaAd.setSlogan("6666");
-        duibaAd.setStatus(7777);
-        duibaAd.setTerminal(8888);
-        duibaAd.setAdId("9999");
+        duibaAd.setCreator(55555);
+        duibaAd.setSlogan("66666");
+        duibaAd.setStatus(77777);
+        duibaAd.setTerminal(88888);
+        duibaAd.setAdId("99999");
         duibaAdMapper.insert(duibaAd);
 
         //封装返回参数
         MicroServiceResponse microServiceResponse = new MicroServiceResponse();
 
-        microServiceResponse.setName("微服务返回对象");
+        microServiceResponse.setName("微服务返回对象副手");
         microServiceResponse.setVersion("1.0.0");
 
         return microServiceResponse;
