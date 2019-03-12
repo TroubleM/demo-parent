@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=/Users/trouble-man/IdeaProjects/demo-parent/demo-dubbo-api/target/demo-dubbo-api-1.0-SNAPSHOT.jar -DgroupId=tm -DartifactId=demo-dubbo-api -Dversion=1.0-SNAPSHOT -Dpackaging=jar

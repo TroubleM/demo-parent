@@ -4,6 +4,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import org.junit.Test;
+import tm.bean.DeadlockBean;
 import tm.bean.Student;
 import tm.bean.Teacher;
 
@@ -329,6 +330,19 @@ public class ApplicationTest {
 
         System.out.println(treeSet.add(new Student("123",123)));
         System.out.println(treeSet.add(new Student("123",321)));
+
+    }
+
+    /**
+     * @Author zhangyi
+     * @Description: 模拟死锁
+     * @Date  2019/3/4
+     * @Param []
+     * @return void
+     **/
+    @Test
+    public void test15(){
+        new DeadlockBean().deadlock();
 
     }
 

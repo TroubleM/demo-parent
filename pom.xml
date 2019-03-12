@@ -18,9 +18,6 @@
       <module>demo-mybatis-annotation</module>
       <module>demo-j2ee-export</module>
       <module>demo-dubbo-producer-assistant-one</module>
-      <module>demo-spring-fescar-dubbo-producer-storage</module>
-      <module>demo-spring-fescar-dubbo-producer-order</module>
-    <module>demo-spring-fescar-dubbo-customer</module>
   </modules>
 
   <name>demo-parent</name>
@@ -30,6 +27,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
+    <!--<version>2.1.1.RELEASE</version>-->
     <version>1.5.4.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
@@ -43,12 +41,6 @@
     <dependencies>
 
       <dependency>
-        <groupId>org.mybatis.spring.boot</groupId>
-        <artifactId>mybatis-spring-boot-starter</artifactId>
-        <version>1.3.0</version>
-      </dependency>
-
-      <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
       </dependency>
@@ -58,10 +50,5 @@
         <scope>test</scope>
       </dependency>
 
-      <dependency>
-        <groupId>com.tm.excel</groupId>
-        <artifactId>excel-handle</artifactId>
-        <version>1.0.0</version>
-      </dependency>
     </dependencies>
 </project>

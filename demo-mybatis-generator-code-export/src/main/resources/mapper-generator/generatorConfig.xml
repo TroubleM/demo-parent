@@ -13,7 +13,7 @@
         <commentGenerator type="tm.mybatis.generator.export.MyCommentGenerator">
         </commentGenerator>
         <!--数据库链接URL，用户名、密码 -->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://mysql.duia.com:3306/bang"
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://mysql.duia.com:3306/demo"
                         userId="duiba" password="Aduiba_388121(qq)d">
         </jdbcConnection>
         <javaTypeResolver>
@@ -35,6 +35,6 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
         <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
-        <table tableName="duiba_dictionary" domainObjectName="DuibaDictionary" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="order_tbl" domainObjectName="Order" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     </context>
 </generatorConfiguration>
