@@ -11,7 +11,6 @@ import com.alibaba.dubbo.config.annotation.Reference;
 
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
-import tm.service.MicroAssistantOneService;
 import tm.service.MicroService;
 
 
@@ -26,17 +25,12 @@ public class CustomerController {
 
     private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
-    @Reference(version = "1.0.0")
-    private MicroService microService;
-
-    @Reference(version = "1.0.0")
-    private MicroAssistantOneService microAssistantOneService;
-
-/*    @Autowired
-    private MicroService microService;
+/*    @Reference(version = "1.0.0")
+    private MicroService microService;*/
 
     @Autowired
-    private MicroAssistantOneService microAssistantOneService;*/
+    private MicroService microService;
+
 
     /**
      * @Author zhangyi

@@ -6,14 +6,12 @@
     http://code.alibabatech.com/schema/dubbo
     http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
-    <dubbo:application name="dubbo-customer"/>
+    <dubbo:application name="${spring.application.name}"/>
 
-    <dubbo:registry address="zookeeper://localhost:2181" />
+    <dubbo:registry address="${dubbo.registry.address1}" />
+    <dubbo:registry address="${dubbo.registry.address2}" />
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
 
     <dubbo:reference id="microService" interface="tm.service.MicroService" version="1.0.0" check="false" />
 
-    <dubbo:reference id="microAssistantOneService" interface="tm.service.MicroAssistantOneService" version="1.0.0" check="false" />
-
-    <!--<dubbo:reference id="duibaAdProducer" interface="tm.service.DuibaAdProducer" version="1.0" check="true" />-->
 </beans>

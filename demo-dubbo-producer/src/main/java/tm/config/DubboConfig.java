@@ -6,8 +6,10 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.AnnotationBean;
-import org.springframework.context.annotation.Configuration;
-@Configuration
+
+
+//dubbo注解配置扩展性调研不足，故先推荐xml配置使用
+//@Configuration
 public class DubboConfig {
 
     @Bean

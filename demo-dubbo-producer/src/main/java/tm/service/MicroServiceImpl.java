@@ -1,15 +1,13 @@
 package tm.service;
 
-import java.util.Date;
-
-import com.alibaba.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.alibaba.dubbo.config.annotation.Service;
+
 import tm.dao.DuibaAdMapper;
-import tm.entity.DuibaAd;
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
 
@@ -24,8 +22,8 @@ public class MicroServiceImpl implements MicroService {
 
     private static final Logger logger = LoggerFactory.getLogger(MicroServiceImpl.class);
 
-    @Autowired
-    private DuibaAdMapper duibaAdMapper;
+    /*@Autowired
+    private DuibaAdMapper duibaAdMapper;*/
 
     @Override
     public MicroServiceResponse execute(MicroServiceRequest microServiceRequest) {
@@ -35,7 +33,7 @@ public class MicroServiceImpl implements MicroService {
         logger.info("密码:" + microServiceRequest.getPassword());
 
         //模拟数据库持久化操作
-        DuibaAd duibaAd = new DuibaAd();
+        /*DuibaAd duibaAd = new DuibaAd();
         duibaAd.setAdImgUrl("1111");
         duibaAd.setAdLink("2222");
         duibaAd.setAdType(3333);
@@ -46,7 +44,7 @@ public class MicroServiceImpl implements MicroService {
         duibaAd.setStatus(7777);
         duibaAd.setTerminal(8888);
         duibaAd.setAdId("9999");
-        duibaAdMapper.insert(duibaAd);
+        duibaAdMapper.insert(duibaAd);*/
 
         //封装返回参数
         MicroServiceResponse microServiceResponse = new MicroServiceResponse();

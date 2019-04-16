@@ -1,57 +1,65 @@
+/*
 package tm.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.AnnotationBean;
+import org.springframework.core.env.Environment;
 
-
-//注解配置拓展性调研不足，先不推荐
 //@Configuration
-//@ConfigurationProperties
-//@PropertySource(value = "config.properties")
 public class DubboConfig {
 
-    @Value("${spring.application.name}")
+    //@Autowired
+    private Environment environment;
+
+    //@Value("${spring.application.name}")
     private String applicationName;
 
-    @Value("${dubbo.registry.address1}")
+    //@Value("${dubbo.registry.address1}")
     private String dubboRegistryAddress1;
 
-    @Value("${dubbo.registry.address2}")
+    //@Value("${dubbo.registry.address2}")
     private String dubboRegistryAddress2;
 
-    @Value("${dubbo.service.package}")
+    //@Value("${dubbo.service.package}")
     private String dubboServicePackage;
 
-    @Bean
+    //@Bean
     public ApplicationConfig applicationConfig() {
+
+        environment.getProperty("spring.application.name");
         System.out.println("applicationName" + applicationName);
         ApplicationConfig applicationConfig = new ApplicationConfig();
         applicationConfig.setName(applicationName);
         return applicationConfig;
     }
 
-    @Bean
+    //@Bean
     public RegistryConfig registryConfig1() {
+        environment.getProperty("dubbo.registry.address1");
         System.out.println("dubboRegistryAddress1" + dubboRegistryAddress1);
         RegistryConfig registryConfig = new RegistryConfig();
         registryConfig.setAddress(dubboRegistryAddress1);
         return registryConfig;
     }
 
-    @Bean
+    //@Bean
     public RegistryConfig registryConfig2() {
+        environment.getProperty("dubbo.registry.address2");
         System.out.println("dubboRegistryAddress2" + dubboRegistryAddress2);
         RegistryConfig registryConfig = new RegistryConfig();
         registryConfig.setAddress(dubboRegistryAddress2);
         return registryConfig;
     }
 
-    @Bean
+    //@Bean
     public AnnotationBean annotationBean() {
+        environment.getProperty("dubbo.service.package");
         System.out.println("dubboServicePackage" + dubboServicePackage);
         AnnotationBean annotationBean = new AnnotationBean();
         annotationBean.setPackage(dubboServicePackage);
@@ -59,3 +67,4 @@ public class DubboConfig {
     }
 
 }
+*/
