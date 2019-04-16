@@ -15,9 +15,10 @@
     <module>demo-mybatis-pagehelper</module>
     <module>demo-dubbo-producer</module>
     <module>demo-dubbo-api</module>
-      <module>demo-mybatis-annotation</module>
-      <module>demo-j2ee-export</module>
-      <module>demo-dubbo-producer-assistant-one</module>
+    <module>demo-mybatis-annotation</module>
+    <module>demo-j2ee-export</module>
+    <module>demo-dubbo-simplify-customer</module>
+    <module>demo-dubbo-config</module>
   </modules>
 
   <name>demo-parent</name>
