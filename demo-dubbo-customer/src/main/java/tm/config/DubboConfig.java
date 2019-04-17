@@ -1,3 +1,4 @@
+/*
 package tm.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -9,35 +10,40 @@ import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.AnnotationBean;
 
+*/
 /**
  * @auther: zhangyi
  * @date: 2019/4/17
- * @Description: dubbo服务相关配置类，若用户要自定义配置，
- * 则需自行创建Dubbo配置类：1、类名必须为DubboConfig，2、与config项目的包路径名一致
- */
+ * @Description: 公共Dubbo服务相关配置类
+ *//*
+
 @Configuration
 public class DubboConfig {
 
-    /**
+    */
+/**
      * @Author zhangyi
      * @Description: 服务应用名，详细配置见ApplicationConfig类
      * @Date  2019/4/17
      * @return com.alibaba.dubbo.config.ApplicationConfig
-     **/
+     **//*
+
     @Bean
     @ConfigurationProperties(prefix="spring.application")
     public ApplicationConfig applicationConfig() {
-        System.out.println("公共dubbo配置");
+        System.out.println("消费者内部自定义dubbo配置");
         ApplicationConfig applicationConfig = new ApplicationConfig();
         return applicationConfig;
     }
 
-    /**
+    */
+/**
      * @Author zhangyi
      * @Description: 服务注册类型，注册中心地址，详细配置见RegistryConfig类
      * @Date  2019/4/17
      * @return com.alibaba.dubbo.config.RegistryConfig
-     **/
+     **//*
+
     @Bean
     @ConfigurationProperties(prefix="spring.dubbo.registry")
     public RegistryConfig registryConfig() {
@@ -45,12 +51,14 @@ public class DubboConfig {
         return registryConfig;
     }
 
-    /**
+    */
+/**
      * @Author zhangyi
      * @Description: 服务协议配置，详细配置见ProtocolConfig类
      * @Date  2019/4/17
      * @return com.alibaba.dubbo.config.ProtocolConfig
-     **/
+     **//*
+
     @Bean
     @ConfigurationProperties(prefix="spring.dubbo.protocol")
     public ProtocolConfig protocolConfig() {
@@ -58,12 +66,14 @@ public class DubboConfig {
         return protocolConfig;
     }
 
-    /**
+    */
+/**
      * @Author zhangyi
      * @Description: 服务注解扫描包，详细配置见AnnotationBean类
      * @Date  2019/4/17
      * @return com.alibaba.dubbo.config.spring.AnnotationBean
-     **/
+     **//*
+
     @Bean
     @ConfigurationProperties(prefix="spring.dubbo.annotation")
     public AnnotationBean annotationBean() {
@@ -72,3 +82,4 @@ public class DubboConfig {
     }
 
 }
+*/

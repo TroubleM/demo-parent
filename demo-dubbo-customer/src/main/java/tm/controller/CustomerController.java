@@ -24,9 +24,6 @@ public class CustomerController {
 
     private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
-/*    @Reference(version = "1.0.0")
-    private MicroService microService;*/
-
     @Reference(version = "1.0.0")
     private MicroService microService;
 
@@ -42,8 +39,6 @@ public class CustomerController {
     public MicroServiceResponse customerRequest(MicroServiceRequest microServiceRequest){
         try {
             logger.info("classType:{}",microService);
-/*            logger.info("findDuibaAdList:{}",duibaAdProducer.findDuibaAdList());*/
-            /*microAssistantOneService.execute(microServiceRequest);*/
             return microService.execute(microServiceRequest);
         }catch (Exception e){
             logger.error("异常",e);

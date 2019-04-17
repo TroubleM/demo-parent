@@ -1,5 +1,6 @@
 package tm.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,11 +12,8 @@ import tm.service.MicroService;
 @RequestMapping(value = "test")
 public class TestController {
 
-    @Autowired
+    @Reference(validation = "1.0.0")
     private MicroService microService;
-
-/*    @Reference(validation = "1.0.0")
-    private MicroService microService;*/
 
     @GetMapping(value = "test1")
     public Object test1(String userName, String password){

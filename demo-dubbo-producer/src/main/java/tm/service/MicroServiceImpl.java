@@ -1,10 +1,10 @@
 package tm.service;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import org.springframework.stereotype.Service;
 import tm.request.MicroServiceRequest;
 import tm.response.MicroServiceResponse;
 
@@ -13,9 +13,8 @@ import tm.response.MicroServiceResponse;
  * @date: 2018/12/27
  * @Description: 微服务实际实现层
  */
-/*@Component("microService")
-@Service(timeout = 5000,version = "1.0.0",interfaceClass = MicroService.class)*/
-@Service("microService")
+@Component("microService")
+@Service(timeout = 5000,version = "1.0.0",interfaceClass = MicroService.class)
 public class MicroServiceImpl implements MicroService {
 
     private static final Logger logger = LoggerFactory.getLogger(MicroServiceImpl.class);
