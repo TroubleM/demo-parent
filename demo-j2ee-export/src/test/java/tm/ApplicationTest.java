@@ -4,12 +4,15 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import org.junit.Test;
-import tm.bean.DeadlockBean;
-import tm.bean.Student;
-import tm.bean.Teacher;
+import tm.bean.*;
+import tm.bean.spi.ITestExecute;
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -20,6 +23,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 注：手动调用垃圾回收也不一定会立刻执行一次回收
  */
 public class ApplicationTest {
+
 
     /**
      * @Author zhangyi
@@ -343,7 +347,130 @@ public class ApplicationTest {
     @Test
     public void test15(){
         new DeadlockBean().deadlock();
+    }
 
+    /**
+     * @Author zhangyi
+     * @Description: 当进程中没有了非支持性线程，
+     * 则虚拟机会终止并立即终止支持性线程，此时finally中的代码不一定会执行
+     * @Date  2019/4/2
+     * @Param []
+     * @return void
+     **/
+    @Test
+    public void test16(){
+        Thread thread = new Thread(new DaemonRunner());
+        thread.setDaemon(true);
+        thread.start();
+    }
+
+    /**
+     * @Author zhangyi
+     * @Description: 自定义匿名回调方法
+     * @Date  2019/11/28
+     * @return void
+     **/
+    @Test
+    public void test17(){
+        TestAsynchronous testAsynchronous = new TestAsynchronous();
+        System.out.println(testAsynchronous.sendMethod("我看你有戏", new ITestExecute() {
+            @Override
+            public Object execute(String text) {
+                return "测试匿名回调，我看你有戏";
+            }
+        }));
+    }
+
+    @Test
+    public void test18(){
+        System.out.println(Integer.toBinaryString(1+2+4+8+16));
+        System.out.println(Integer.toBinaryString(5));
+    }
+
+    @Test
+    public void test19(){
+        Integer a = 128;
+
+        Integer b = 128;
+
+        System.out.println(a == b);
+        System.out.println(a.equals(b));
+        String c = "1";
+        String d = "1";
+        System.out.println(c == d);
+        System.out.println(c.equals(d));
+
+        Integer e = 123456;
+
+        Integer f = 123456;
+        System.out.println(e == f);
+        System.out.println(e.equals(f));
+    }
+
+    @Test
+    public void test20(){
+        for (;;){
+            System.out.println("123456789");
+        }
+    }
+
+    @Test
+    public void test21(){
+        Set<Integer> set1 = new HashSet<>();
+        for (int i = 0; i < 100; i++) {
+            set1.add(i);
+            set1.remove(i-1);
+        }
+
+        System.out.println(set1.size());
+
+        Set<Integer> set3 = new HashSet<>();
+        for (int i = 0; i < 100; i++) {
+            set3.add(i);
+            set3.remove(i-1);
+        }
+        System.out.println(set3.size());
+
+    }
+
+    @Test
+    public void test22(){
+        Object i = 1 == 1 ? new Integer(3) : new Float(1);
+        System.out.println(i);
+    }
+
+    @Test
+    public void test23(){
+        Map<String, Object> map = Maps.newHashMap();
+        map.put("1",1);
+        map.put("2",2);
+        map.put("3",3);
+        Set<String> keies = map.keySet();
+        keies.remove("1");
+    }
+
+    @Test
+    public void test24(){
+        List<Object> list = Lists.newArrayList();
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        System.out.println(list);
+    }
+
+    @Test
+    public void test25(){
+        String a = new String();
+        List<String> b = Lists.newArrayList();
+
+    }
+
+    @Test
+    public void test26(){
+        System.out.println(LocalDate.now());
+        System.out.println(LocalTime.now());
+        System.out.println(LocalDateTime.now());
     }
 
 }

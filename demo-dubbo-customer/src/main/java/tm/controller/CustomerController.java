@@ -46,4 +46,16 @@ public class CustomerController {
         return null;
     }
 
+    @GetMapping(value = "testOne")
+    public MicroServiceResponse testOne(){
+        try {
+            logger.info("classType:{}",microService);
+            return microService.testOne(new Object());
+        }catch (Exception e){
+            e.printStackTrace();
+            logger.error("异常",e);
+        }
+        return null;
+    }
+
 }

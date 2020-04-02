@@ -6,25 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-disconf" />
         <module name="demo-dubbo-api" />
+        <module name="demo-dubbo-config" />
         <module name="demo-dubbo-customer" />
         <module name="demo-dubbo-producer" />
-        <module name="demo-dubbo-producer-assistant-one" />
+        <module name="demo-dubbo-simplify-customer" />
+        <module name="demo-hutool" />
         <module name="demo-j2ee-export" />
+        <module name="demo-jsoup" />
         <module name="demo-mybatis-annotation" />
         <module name="demo-mybatis-generator-code-export" />
         <module name="demo-mybatis-generator-maven-plugin" />
         <module name="demo-mybatis-pagehelper" />
-        <module name="demo-spring-fescar-dubbo-customer" />
-        <module name="demo-spring-fescar-dubbo-producer-order" />
-        <module name="demo-spring-fescar-dubbo-producer-storage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="demo-cloud-eureka-feign" target="1.8" />
       <module name="demo-dubbo-api2" target="1.7" />
+      <module name="demo-dubbo-producer-assistant-one" target="1.8" />
       <module name="demo-myabtis-generator-code" target="1.8" />
       <module name="demo-mybatis-generator-code" target="1.8" />
       <module name="demo-mybatisgeneratormavenplugin" target="1.7" />
+      <module name="demo-spring-fescar-dubbo-customer" target="1.8" />
+      <module name="demo-spring-fescar-dubbo-producer-order" target="1.8" />
+      <module name="demo-spring-fescar-dubbo-producer-storage" target="1.8" />
       <module name="demo-srping-boot" target="1.7" />
       <module name="mybatis-generator-maven-plugin" target="1.7" />
     </bytecodeTargetLevel>

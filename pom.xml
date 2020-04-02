@@ -19,6 +19,9 @@
     <module>demo-j2ee-export</module>
     <module>demo-dubbo-simplify-customer</module>
     <module>demo-dubbo-config</module>
+      <module>demo-jsoup</module>
+      <module>demo-disconf</module>
+      <module>demo-hutool</module>
   </modules>
 
   <name>demo-parent</name>

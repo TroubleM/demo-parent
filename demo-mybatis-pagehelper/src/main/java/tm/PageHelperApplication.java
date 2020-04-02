@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
 @MapperScan("tm.dao")
-@ImportResource(locations = {"classpath:dubbo-producer.xml"})
+//@ImportResource(locations = {"classpath:dubbo-producer.xml"})
 public class PageHelperApplication {
 
     public static void main(String[] args) {

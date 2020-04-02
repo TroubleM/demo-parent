@@ -39,10 +39,6 @@ public class DuibaAdController {
      **/
     @GetMapping("findDuibaAdList")
     public DuibaAdPageResponse findDuibaAdList(DuibaAdRequest duibaAdRequest) {
-
-
-
-
         return duibaAdService.findDuibaAdList(duibaAdRequest);
     }
 

@@ -19,4 +19,6 @@ public interface MicroService {
      **/
     MicroServiceResponse execute(MicroServiceRequest microServiceRequest);
 
+    MicroServiceResponse testOne(Object object);
+
 }

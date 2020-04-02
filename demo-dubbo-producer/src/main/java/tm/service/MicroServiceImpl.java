@@ -51,4 +51,10 @@ public class MicroServiceImpl implements MicroService {
 
         return microServiceResponse;
     }
+
+    @Override
+    public MicroServiceResponse testOne(Object object) {
+        System.out.println("testOne");
+        return null;
+    }
 }
